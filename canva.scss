@@ -1,0 +1,113 @@
+$success:#8b3dff;
+$secondary:#EEEEEE;
+
+
+
+@import './node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import './node_modules/animate.css/animate.min.css';
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import './node_modules/glider-js/glider.min.css';
+
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+
+.a-tag{
+    display: inline-block;
+    border-radius: 80%;
+    background: #224B0C;
+    padding: 8px;
+    width: 45px;
+    text-align:center;
+    // height: 150px;
+}
+
+.millions{
+    position: absolute;
+    top: 20px;
+    // right:0px;
+    left: 180px
+};
+
+.iconsDesign{
+    padding: 10px 10px;
+    border: 1px;
+    border-radius: 2rem;
+}
+
+.sparkle1{
+    position: absolute;
+    left: 500px;
+}
+
+.sparkle2{
+    position: absolute;
+    left:800px;
+}
+
+.sparkle3{
+    background: linear-gradient();
+    position: absolute;
+    top: 360px;
+    right:100px;
+}
+
+.magic{
+    position: relative;
+    color: white;
+}
+
+.bivbiv:hover{
+transform: scale(1.2);
+transition: 0.3s;
+}
+
+.forverscroll{
+    overflow: scroll;
+    height: 550px;
+}
+
+.badgeArrow::after{
+content: "";
+border: 13px solid transparent;
+border-bottom-color:$white;
+position: absolute;
+top: -26px;
+left: 120px;
+}
+
+.cardImage{
+    width: 200px;
+    height: 150px;
+}
+
+
+.glider-card:hover{
+.hover-search{
+    display: flex;
+}
+}
+
+
+.hover-search{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.9;
+}
+
+.hover-search i{
+    position: absolute;
+    height: 50px;
+    border-radius: 10px;
+    padding: 11px 12px;
+}
+
+.cell1photo{
+    width: 50px;
+    height: 50px;
+}
